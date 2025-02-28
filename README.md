@@ -2,6 +2,8 @@
 
 This project aims to detect solar panels in satellite imagery using Ultralytics YOLO. Submitted by Nishchay Bhutoria, a second-year B.Tech in Artificial Intelligence student at IIT Gandhinagar.
 
+Disclaimer: The mAP50 metrics aren't remarkable because I used the smallest YOLO11 model (YOLO11n) and trained it locally. Also, I ignored classes other than 0 instead of converting them to 0.
+
 ---
 
 ## 📂 **Project Structure**
@@ -139,5 +141,3 @@ Custom mAP50 (AUC method): 0.7453742215928991
 | **0.7**       |                      | 0.577873 | 0.625172 | 0.641610 | 0.631637 | 0.298613 |
 | **0.9**       |                      | 0.160580 | 0.180898 | 0.193913 | 0.209081 | 0.172005 |
 
-
----
